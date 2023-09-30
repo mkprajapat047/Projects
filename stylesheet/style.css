@@ -1,0 +1,229 @@
+*{  
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html{
+    font-size: 65%;
+}
+
+
+
+.header { 
+    height: 98vh;
+    border: 5px;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url('../images/imags.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+    
+}
+.container{ 
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+}
+ul li{
+    list-style: none;
+}
+a{
+    font-size: 150%;
+    text-decoration: none;
+    
+}
+p, li{
+    letter-spacing: 1px;
+    margin: 5px;
+}
+
+.navitems{
+    padding-top: 30px;
+}
+
+
+
+
+
+
+.header .logo,
+.header .navbar a{
+    color: white;
+    
+}
+.header .navbar .logo{
+    float: left;
+    font-size: 100px;
+}
+.header .navbar .navitems{
+    float: right;
+    padding-right: 30px;
+}
+.header .navbar .navitem{
+    display: inline-block;
+    padding: 5px;
+    
+}
+.navbar a:hover{
+
+    border-bottom: rgb(238, 146, 130) solid 2px;
+}
+
+.navbar::after{
+display: block;
+clear: both;
+}
+/* ####################### header content #################################### */
+
+.headercontent{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white;
+    text-align: center;
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
+   
+    
+}
+.heading{
+    text-align: center;
+    font-size: 30px;
+    padding: 8px;
+}
+.text{
+     font-size: 15px;
+     font-weight: 20px;
+     padding-bottom: 10px;
+}
+
+.button{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    color: red ;
+    font-weight: 20px;
+    border-radius: 40px;
+    font-size: 20px;
+    border: red solid 1px;
+    
+    
+}
+.buttion :hover{
+    background-color: royalblue lightblue;
+}
+/* ########################## secction 2############################# */
+.section{
+    background-color: #ddd;
+    padding: 100px 0px;
+    /* box-shadow: 5px 5px 20px 0px rgba(255, 255, 255, 0.212); */
+}
+.imgbox{
+    box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.212);
+}
+.row{
+    height: 350px;
+    background-color: #fff;
+    /* box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.212); */
+}
+.row1{
+    margin-bottom: 100px;
+    
+}
+.row1 .imgbox, .row2 .texbox{
+    float: left;
+    width: 50%;
+}
+.row2 .imgbox, .row1 .texbox{
+    float: right;
+    width: 50%;
+}
+.row .texbox{
+    
+    padding: 30px;
+    
+}
+.row .imgbox{
+    
+    height: 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.h2{
+    font-size: 40px;
+}
+.p{
+    font-size: 20px;
+    font-weight: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+/* ############################################ section 3############################### */
+.section2{
+    padding:  100px 0px;
+}
+.adventure{
+    box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.562);
+}
+.box{
+    width: 33.33333%;
+    float: left;
+   
+    padding: 2px;
+    text-align: center;
+}
+.adventure::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+p{
+    font-size: 15px;
+}
+h2{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.box1, .box3{
+    background-color: rgba(0, 0, 0, 0.616);
+    color: white;
+    padding: 20px 0px;
+}
+.box2{
+    background-color: rgba(255, 0, 0, 0.616);
+    color: white;
+    padding: 20px 0px;
+
+}
+/* ##############################footer#####################  */
+
+.footer{
+    text-align: center;
+    background-color: gray;
+    color: honeydew;
+}
+.icons i{
+    margin: 10px;
+}
+.address{
+    width: 33.3333%;
+    float: left;
+    border: black solid;
+
+}
+.contact{
+    width: 33.3333%;
+    float: calc(center);
+    border: black solid;
+}
+.map{
+    width: 33.3333%;
+    float: right;
+    border: black solid;
+}
